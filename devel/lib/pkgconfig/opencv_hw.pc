@@ -1,0 +1,8 @@
+prefix=/u/nico43/catkin_ws/devel
+
+Name: opencv_hw
+Description: Description of opencv_hw
+Version: 0.0.0
+Cflags: -I/u/nico43/catkin_ws/src/opencv_hw/include
+Libs: -L${prefix}/lib -lopencv_hw
+Requires: cv_bridge image_transport roscpp sensor_msgs
